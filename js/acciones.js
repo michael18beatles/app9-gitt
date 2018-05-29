@@ -42,7 +42,7 @@ function onDeviceReady(){
 	 var watchID=navigator.geolocation.watchPosition(onSuccess, onError,options);
 	 function onSuccess(position){
 		 $('#latitud').html(position.coords.latitude);
-		 $('#longitude').html(position.coords.longitude);
+		 $('#longitud').html(position.coords.longitude);
 		 $('#altitud').html(position.coords.altitude);
 		 $('#accuracy').html(position.coords.accuracy);
 		 $('#aaccuracy').html(position.coords.altitudAccuracy);
@@ -52,6 +52,6 @@ function onDeviceReady(){
 	 };
 	 
 	 function onError(error){
-		 alert('code:' +error.code +'\n'+'message:'+error.message+'\n');
+		 alert('code:' + error.code +'\n'+'message:'+ error.message+'\n');
 	 }
  }
