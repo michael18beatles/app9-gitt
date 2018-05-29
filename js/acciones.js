@@ -45,7 +45,7 @@ function onDeviceReady(){
 		 $('#longitud').html(position.coords.longitude);
 		 $('#altitud').html(position.coords.altitude);
 		 $('#accuracy').html(position.coords.accuracy);
-		 $('#aaccuracy').html(position.coords.altitudAccuracy);
+		 $('#aaccuracy').html(position.coords.altitudeAccuracy);
 		 $('#headingg').html(position.coords.heading);
 		 $('#speed').html(position.coords.speed);
 		 $('#timestamp').html(position.timestamp);
